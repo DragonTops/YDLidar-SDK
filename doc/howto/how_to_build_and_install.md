@@ -35,7 +35,7 @@ if you want to use python API, you need to install python and swig:
 [swig office install](http://www.swig.org/download.html)
 
 ## Build YDLidar-SDK
-### Ubuntu 18.04/16.04/14.04 LTS
+### Ubuntu 22.04 LTS
 In the YDLidar SDK directory, run the following commands to compile the project:
 ```
 git clone https://github.com/YDLIDAR/YDLidar-SDK.git
@@ -97,8 +97,8 @@ Three samples are provided in samples, which demonstrate how to configure YDLida
 
 ![](images/sequence.png)
 
-### Ubuntu 18.04/16.04 /14.04 LTS
-For Ubuntun 18.04/16.04/14.04 LTS, run the *tri_test* if connect with the Triangle LiDAR unit(s) or TOF LiDAR unit(s):
+### Ubuntu 22.04 LTS
+For Ubuntu 22.04 LTS, run the *tri_test* if connect with the Triangle LiDAR unit(s) or TOF LiDAR unit(s):
 ```
 ./tri_test
 ```
@@ -144,9 +144,9 @@ Baudrate:
 2. 153600
 3. 230400
 4. 512000
-Please select the lidar baudrate:4
-Whether the Lidar is one-way communication[yes/no]:no
-Please enter the lidar scan frequency[5-12]:10
+Please select the lidar baudrate:0
+Whether the Lidar is one-way communication[yes/no]:yes
+Please enter the lidar scan frequency[5-12]:5
 ```
 
 ### Python Run
