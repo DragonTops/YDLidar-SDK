@@ -8,14 +8,14 @@
 ## Install CMake
 The installation procedures in Ubuntu 18.04/16.04/14.04 LTS and Windows 7/10 are shown here as examples. For Ubuntu 18.04/16.04/14.04 32-bit LTS and Mac, you can get it in [YDLidar-SDK wiki](https://github.com/YDLIDAR/YDLidar-SDK/wiki).
 YDLidar SDK requires [CMake 2.8.2+](https://cmake.org/) as dependencies. 
-### Ubuntu 18.04/16.04/14.04 LTS
+### Ubuntu 22.04 LTS
 You can install these packages using apt:
 ```shell
 sudo apt install cmake pkg-config
 ```
 if you want to use python API, you need to install python and swig(3.0 or higher):
 ```shell
-sudo apt-get install python swig
+sudo apt-get install python3 swig
 sudo apt-get install python-pip
 ```
 ### Windows 7/10
@@ -39,7 +39,9 @@ if you want to use python API, you need to install python and swig:
 In the YDLidar SDK directory, run the following commands to compile the project:
 ```
 git clone https://github.com/YDLIDAR/YDLidar-SDK.git
-cd YDLidar-SDK/build
+cd YDLidar-SDK
+mkdir build
+cd build
 cmake ..
 make
 sudo make install
