@@ -6,7 +6,7 @@
 * [4. Build in VSCode](#build-in-visual-studio-code)
 
 ## Install CMake
-The installation procedures in Ubuntu 18.04/16.04/14.04 LTS and Windows 7/10 are shown here as examples. For Ubuntu 18.04/16.04/14.04 32-bit LTS and Mac, you can get it in [YDLidar-SDK wiki](https://github.com/YDLIDAR/YDLidar-SDK/wiki).
+The installation procedures in Ubuntu 22.04 LTS and Windows 7/10 are shown here as examples. For Ubuntu 22.04 32-bit LTS and Mac, you can get it in [YDLidar-SDK wiki](https://github.com/YDLIDAR/YDLidar-SDK/wiki).
 YDLidar SDK requires [CMake 2.8.2+](https://cmake.org/) as dependencies. 
 ### Ubuntu 22.04 LTS
 You can install these packages using apt:
